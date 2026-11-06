@@ -1,0 +1,19 @@
+.\.venv\Scripts\Activate.ps1
+
+deactivate
+
+.\.venv\Scripts\Activate.ps1
+
+python --version
+Python 3.11.9
+
+python -m uvicorn api:app --host 127.0.0.1 --port 8000 --reload
+
+
+
+FrontEnd
+
+cd "D:\kiran programming\finalprojects\AI PUBLIC SPEAKING2\Astra-Frontend"
+
+npm run dev
+

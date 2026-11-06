@@ -1,0 +1,428 @@
+{
+  "file_name": "speakaro_7v61q3y_.pptx",
+  "slide_count": 10,
+  "total_word_count": 749,
+  "total_character_count": 6175,
+  "average_words_per_slide": 74.9,
+  "total_images": 22,
+  "total_charts": 0,
+  "total_tables": 0,
+  "average_basic_structure_score": 89.5,
+  "untitled_slides": 0,
+  "dense_slides": 1,
+  "low_text_slides": 0,
+  "slides_below_60": 0,
+  "overall_findings": [
+    "1 slide(s) contain more than 100 words."
+  ],
+  "score_explanation": "Rule-based heuristic based on detectable titles, text density, explicitly sized small fonts, sentence length, and potentially empty slides. This is not an AI assessment of visual design, factual accuracy, or persuasiveness.",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Context-Aware Multimodal AI for Classroom Engagement Analysis, Forecasting, and Adaptive Intervention",
+      "word_count": 47,
+      "character_count": 446,
+      "sentence_count": 2,
+      "average_words_per_sentence": 23.5,
+      "image_count": 1,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 3,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        37.0,
+        14.5,
+        14.5,
+        14.5,
+        14.5
+      ],
+      "minimum_font_size_pt": 14.5,
+      "maximum_font_size_pt": 37.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "Context-Aware Multimodal AI for Classroom Engagement Analysis, Forecasting, and Adaptive Intervention\nAn AI-powered classroom analytics system combining visual behavior, student feedback, academic performance, and temporal engagement patterns to support teacher decision-making.\nComputer Vision (CNN) • NLP • Machine Learning\nEngagement estimation, forecasting, and adaptive intervention\nPrivacy-conscious, context-aware, research-grade prototype"
+    },
+    {
+      "slide_number": 2,
+      "title": "Title & Vision",
+      "word_count": 51,
+      "character_count": 408,
+      "sentence_count": 3,
+      "average_words_per_sentence": 17.0,
+      "image_count": 4,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 8,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        37.0,
+        14.5,
+        18.5,
+        14.5,
+        18.5,
+        14.5,
+        18.5,
+        14.5
+      ],
+      "minimum_font_size_pt": 14.5,
+      "maximum_font_size_pt": 37.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "Title & Vision\nClassroom CCTV → AI Analysis → Engagement Trends → Forecasting → Teacher Decision Support\nComputer Vision (CNN)\nStudent detection, pose/orientation, activity cues, and heatmaps from sampled frames.\nNLP\nSentiment and topic extraction from optional student feedback to add semantic context.\nMachine Learning\nTemporal models for engagement estimation, trend detection, and short-term forecasting."
+    },
+    {
+      "slide_number": 3,
+      "title": "Problem Statement",
+      "word_count": 70,
+      "character_count": 565,
+      "sentence_count": 6,
+      "average_words_per_sentence": 11.67,
+      "image_count": 1,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 11,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        37.0,
+        14.5,
+        18.5,
+        14.5,
+        18.5,
+        14.5,
+        18.5,
+        14.5
+      ],
+      "minimum_font_size_pt": 14.5,
+      "maximum_font_size_pt": 37.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "Problem Statement\nTeachers cannot continuously perceive every student's engagement across an entire session. Observations are largely manual, subjective, and scale poorly for large classes or longitudinal comparisons.\nLimitations of manual observation\nMomentary, biased, and difficult to compare across students, topics, or weeks.\nFalse assumptions from simple signals\nLooking down ≠ disengaged. Could be note-taking, problem-solving, or device-based work.\nOur response\nContext-aware multimodal analysis that fuses visual cues, feedback, and performance indicators."
+    },
+    {
+      "slide_number": 4,
+      "title": "Proposed System & Core Idea",
+      "word_count": 68,
+      "character_count": 575,
+      "sentence_count": 3,
+      "average_words_per_sentence": 22.67,
+      "image_count": 1,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 6,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        37.0,
+        14.5,
+        18.5,
+        14.5,
+        14.5,
+        18.5,
+        14.5
+      ],
+      "minimum_font_size_pt": 14.5,
+      "maximum_font_size_pt": 37.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "Proposed System & Core Idea\nEnd-to-end prototype that processes sparse sampled frames and optional feedback, fuses heterogeneous signals, and produces interpretable engagement estimates and short-term forecasts for teacher support.\nVisual pipeline (sampled frames)\nStudent detection, seat mapping, orientation, and activity recognition (CNNs)\nHeatmaps, peer-interaction markers, and temporal aggregations\nFeedback & fusion\nStudent feedback → NLP → categories (difficulty, pace, clarity). Fusion layer combines signals with prior academic data to estimate engagement robustly."
+    },
+    {
+      "slide_number": 5,
+      "title": "Context-Aware Student Engagement Analysis",
+      "word_count": 60,
+      "character_count": 507,
+      "sentence_count": 2,
+      "average_words_per_sentence": 30.0,
+      "image_count": 6,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 8,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        34.0,
+        13.5,
+        13.5,
+        17.0,
+        13.5,
+        13.5,
+        13.5,
+        17.0,
+        13.5,
+        13.5
+      ],
+      "minimum_font_size_pt": 13.5,
+      "maximum_font_size_pt": 34.0,
+      "basic_structure_score": 89,
+      "findings": [
+        "Some text is below 14 pt. Minimum: 13.5 pt.",
+        "Long sentences may reduce readability."
+      ],
+      "suggestions": [
+        "Check readability on a projector.",
+        "Break long sentences into shorter statements.",
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "Context-Aware Student Engagement Analysis\nWhy naive gaze detection fails: Looking down can indicate note-taking, problem solving, or device use — not necessarily disengagement.\nNaive approach\nLooking away from board → Disengaged ❌ (high false-positive risk)\nProposed approach\nCombine visual behavior + activity detection + classroom context + feedback + performance → probabilistic engagement estimate\nThe system estimates engagement probabilistically; it does not claim direct access to internal attention."
+    },
+    {
+      "slide_number": 6,
+      "title": "Classroom & Student Engagement Analytics",
+      "word_count": 70,
+      "character_count": 515,
+      "sentence_count": 4,
+      "average_words_per_sentence": 17.5,
+      "image_count": 3,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 8,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        37.0,
+        14.5,
+        18.5,
+        14.5,
+        18.5,
+        14.5,
+        18.5,
+        14.5
+      ],
+      "minimum_font_size_pt": 14.5,
+      "maximum_font_size_pt": 37.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "Classroom & Student Engagement Analytics\nOutputs emphasize class-level trends, anonymized student profiles, and spatial heatmaps while preserving privacy and removing names.\nClass-Level Engagement\nExample timeline: 09:00 82% → 09:10 76% → 09:20 68% → 09:30 54% → 09:40 63% → 09:50 75%\nEngagement Heatmap\nSeat/bench/row/section aggregation. No student names; only anonymized seat identifiers.\nStudent Profiles (Anonymized)\nAverage engagement, board orientation, activity flags, participation signals, and trend line."
+    },
+    {
+      "slide_number": 7,
+      "title": "Student Feedback & Academic Performance",
+      "word_count": 85,
+      "character_count": 721,
+      "sentence_count": 2,
+      "average_words_per_sentence": 42.5,
+      "image_count": 2,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 9,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        29.5,
+        11.5,
+        14.5,
+        11.5,
+        11.5,
+        11.5,
+        11.5,
+        11.5,
+        11.5,
+        14.5,
+        11.5,
+        11.5,
+        11.5,
+        11.5,
+        11.5,
+        11.5
+      ],
+      "minimum_font_size_pt": 11.5,
+      "maximum_font_size_pt": 29.5,
+      "basic_structure_score": 73,
+      "findings": [
+        "Relatively dense slide: 85 words.",
+        "Small explicitly sized text: 11.5 pt.",
+        "Long sentences may reduce readability."
+      ],
+      "suggestions": [
+        "Shorten paragraphs and use concise bullet points.",
+        "Increase small fonts where possible.",
+        "Break long sentences into shorter statements.",
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "Student Feedback & Academic Performance\nOptional post-class feedback is analyzed with NLP to provide semantic context that complements visual signals.\nNLP-Based Feedback Categories\nUnderstanding\nDifficulty\nPace\nClarity\nInterest / Examples\nQuestions / Confusion\nEngagement vs Academic Performance (Indicators)\nFour example patterns used as investigative signals — not automated judgments:\nHigh engagement + high marks → consistent learning pattern\nLow engagement + low marks → consider targeted support\nLow engagement + high marks → investigate out-of-class learning\nHigh engagement + low marks → participation without mastery; review content\nThese patterns are indicators for teacher investigation, not conclusive labels."
+    },
+    {
+      "slide_number": 8,
+      "title": "Context-Aware Peer Interaction & Distraction Detection",
+      "word_count": 84,
+      "character_count": 671,
+      "sentence_count": 6,
+      "average_words_per_sentence": 14.0,
+      "image_count": 1,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 15,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        31.0,
+        12.5,
+        12.5,
+        15.5,
+        12.5,
+        12.5,
+        15.5,
+        12.5,
+        12.5,
+        15.5,
+        12.5,
+        12.5
+      ],
+      "minimum_font_size_pt": 12.5,
+      "maximum_font_size_pt": 31.0,
+      "basic_structure_score": 84,
+      "findings": [
+        "Relatively dense slide: 84 words.",
+        "Some text is below 14 pt. Minimum: 12.5 pt."
+      ],
+      "suggestions": [
+        "Shorten paragraphs and use concise bullet points.",
+        "Check readability on a projector.",
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "Context-Aware Peer Interaction & Distraction Detection\nDetects repeated orientation and proximity across sampled frames, measures duration/frequency, and contextualizes with activity type (lecture vs. instructed discussion).\n01\nDetection\nTrack per-student orientation and proximity across sampled frames.\n02\nContextualize\nCombine with teacher activity and class plan (lecture vs group work).\n03\nFlag & Recommend\nFlag possible off-task interactions and recommend teacher review; do not auto-punish or auto-segregate.\nExample student summary: Peer interactions: 6 • Estimated duration: 8 min • During lecture: 7 min • Engagement trend: declining → Recommend teacher review."
+    },
+    {
+      "slide_number": 9,
+      "title": "Forecasting, Early Warning & Adaptive Intervention",
+      "word_count": 88,
+      "character_count": 679,
+      "sentence_count": 7,
+      "average_words_per_sentence": 12.57,
+      "image_count": 2,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 16,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        30.5,
+        12.0,
+        18.0,
+        15.0,
+        12.0,
+        18.0,
+        15.0,
+        12.0,
+        18.0,
+        15.0,
+        12.0,
+        12.0
+      ],
+      "minimum_font_size_pt": 12.0,
+      "maximum_font_size_pt": 30.5,
+      "basic_structure_score": 84,
+      "findings": [
+        "Relatively dense slide: 88 words.",
+        "Some text is below 14 pt. Minimum: 12.0 pt."
+      ],
+      "suggestions": [
+        "Shorten paragraphs and use concise bullet points.",
+        "Check readability on a projector.",
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "Forecasting, Early Warning & Adaptive Intervention\nShort-term temporal models identify likely engagement declines and propose evidence-based, teacher-led interventions.\n1\nEarly disengagement detection\nTrend example: 72 → 68 → 63 → 57% → System flags \"Potential engagement decline\" and suggests interactive interventions.\n2\nIntervention suggestions\nAsk a question, short quiz, 2-min discussion, targeted example, quick formative check.\n3\nLong-term analysis\nCombine weekly engagement and marks to identify students who may need sustained support (e.g., Week1: 52%→Week4: 74% with marks trend).\nThe AI recommends actions; the teacher retains final authority and contextual judgment."
+    },
+    {
+      "slide_number": 10,
+      "title": "Final Dashboard, Research Contributions & Future Scope",
+      "word_count": 126,
+      "character_count": 1088,
+      "sentence_count": 3,
+      "average_words_per_sentence": 42.0,
+      "image_count": 1,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 12,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        27.0,
+        13.5,
+        10.5,
+        10.5,
+        10.5,
+        10.5,
+        13.5,
+        10.5,
+        10.5,
+        10.5,
+        13.5,
+        10.5,
+        10.5,
+        10.5,
+        10.5,
+        10.5,
+        13.5,
+        10.5,
+        10.5,
+        10.5,
+        10.5,
+        10.5
+      ],
+      "minimum_font_size_pt": 10.5,
+      "maximum_font_size_pt": 27.0,
+      "basic_structure_score": 65,
+      "findings": [
+        "Text-heavy slide: 126 words.",
+        "Small explicitly sized text: 10.5 pt.",
+        "Long sentences may reduce readability."
+      ],
+      "suggestions": [
+        "Reduce text and highlight the key message.",
+        "Increase small fonts where possible.",
+        "Break long sentences into shorter statements.",
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "Final Dashboard, Research Contributions & Future Scope\nCLASSROOM OVERVIEW\nCurrent engagement: 64% • Trend: ↓\nStudents requiring attention: 5 (anonymized)\nActive peer-interaction alerts: 2\nCurrent topic: Quadratic Equations\nAnalytics & Outputs\nEngagement timeline, bench heatmap, student trends\nTopic-wise engagement • Engagement vs marks\nStudent feedback insights • Long-term progress tracking\nResearch Contributions\nContext-aware engagement estimation vs naive gaze detection\nMultimodal fusion of visual signals, feedback, and academic data\nEngagement forecasting and early warning\nContext-aware peer interaction / distraction detection\nLong-term engagement-performance analysis and adaptive recommendations\nFuture Scope\nReal-time and on-device inference with privacy-preserving methods\nMore sophisticated temporal and personalized models\nExpanded, diverse classroom datasets and robust evaluation protocols\nStronger privacy, consent, and governance mechanisms\nGoal: Move from \"What is happening?\" to \"What engagement pattern is emerging, and what information helps the teacher respond?\""
+    }
+  ],
+  "repeated_four_word_phrases": [
+    {
+      "phrase": "forecasting and adaptive intervention",
+      "count": 2
+    },
+    {
+      "phrase": "student feedback academic performance",
+      "count": 2
+    },
+    {
+      "phrase": "context-aware peer interaction distraction",
+      "count": 2
+    },
+    {
+      "phrase": "peer interaction distraction detection",
+      "count": 2
+    },
+    {
+      "phrase": "orientation and proximity across",
+      "count": 2
+    },
+    {
+      "phrase": "and proximity across sampled",
+      "count": 2
+    },
+    {
+      "phrase": "proximity across sampled frames",
+      "count": 2
+    }
+  ]
+}

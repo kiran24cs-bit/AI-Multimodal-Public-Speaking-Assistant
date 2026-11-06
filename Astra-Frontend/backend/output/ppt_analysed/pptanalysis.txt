@@ -1,0 +1,152 @@
+======================================================================
+                 POWERPOINT ANALYSIS REPORT
+======================================================================
+File name: speakaro_7v61q3y_.pptx
+Total slides: 10
+Total extracted words: 749
+Average words per slide: 74.9
+Average basic structure score: 89.5/100
+
+SCORING EXPLANATION
+----------------------------------------------------------------------
+Rule-based heuristic based on detectable titles, text density, explicitly sized small fonts, sentence length, and potentially empty slides. This is not an AI assessment of visual design, factual accuracy, or persuasiveness.
+
+OVERALL FINDINGS
+----------------------------------------------------------------------
+- 1 slide(s) contain more than 100 words.
+
+SLIDE-BY-SLIDE ANALYSIS
+======================================================================
+
+SLIDE 1: Context-Aware Multimodal AI for Classroom Engagement Analysis, Forecasting, and Adaptive Intervention
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 2: Title & Vision
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 3: Problem Statement
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 4: Proposed System & Core Idea
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 5: Context-Aware Student Engagement Analysis
+----------------------------------------------------------------------
+Basic structure score: 89/100
+
+FINDINGS:
+- Some text is below 14 pt. Minimum: 13.5 pt.
+- Long sentences may reduce readability.
+
+RECOMMENDATIONS:
+- Check readability on a projector.
+- Break long sentences into shorter statements.
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 6: Classroom & Student Engagement Analytics
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 7: Student Feedback & Academic Performance
+----------------------------------------------------------------------
+Basic structure score: 73/100
+
+FINDINGS:
+- Relatively dense slide: 85 words.
+- Small explicitly sized text: 11.5 pt.
+- Long sentences may reduce readability.
+
+RECOMMENDATIONS:
+- Shorten paragraphs and use concise bullet points.
+- Increase small fonts where possible.
+- Break long sentences into shorter statements.
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 8: Context-Aware Peer Interaction & Distraction Detection
+----------------------------------------------------------------------
+Basic structure score: 84/100
+
+FINDINGS:
+- Relatively dense slide: 84 words.
+- Some text is below 14 pt. Minimum: 12.5 pt.
+
+RECOMMENDATIONS:
+- Shorten paragraphs and use concise bullet points.
+- Check readability on a projector.
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 9: Forecasting, Early Warning & Adaptive Intervention
+----------------------------------------------------------------------
+Basic structure score: 84/100
+
+FINDINGS:
+- Relatively dense slide: 88 words.
+- Some text is below 14 pt. Minimum: 12.0 pt.
+
+RECOMMENDATIONS:
+- Shorten paragraphs and use concise bullet points.
+- Check readability on a projector.
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 10: Final Dashboard, Research Contributions & Future Scope
+----------------------------------------------------------------------
+Basic structure score: 65/100
+
+FINDINGS:
+- Text-heavy slide: 126 words.
+- Small explicitly sized text: 10.5 pt.
+- Long sentences may reduce readability.
+
+RECOMMENDATIONS:
+- Reduce text and highlight the key message.
+- Increase small fonts where possible.
+- Break long sentences into shorter statements.
+- Check image quality, relevance, alignment, and attribution.
+
+REPEATED FOUR-WORD PHRASES
+======================================================================
+- 'forecasting and adaptive intervention': 2 occurrences
+- 'student feedback academic performance': 2 occurrences
+- 'context-aware peer interaction distraction': 2 occurrences
+- 'peer interaction distraction detection': 2 occurrences
+- 'orientation and proximity across': 2 occurrences
+- 'and proximity across sampled': 2 occurrences
+- 'proximity across sampled frames': 2 occurrences
+
+======================================================================
+END OF REPORT
+======================================================================

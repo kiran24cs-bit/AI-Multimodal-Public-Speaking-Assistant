@@ -1,0 +1,511 @@
+import { createContext, useContext, useState } from "react";
+
+const DataContext = createContext();
+
+const initialUsers = [
+  {
+    name: "JOHN",
+    gmail: "1",
+    password: "1",
+  },
+  {
+    name: "SAM",
+    gmail: "2",
+    password: "2",
+  },
+];
+
+const initialProgress = {
+  "1": [
+    {
+      id: 1,
+      title: "Public Speaking Intro",
+      date: "2026-09-01",
+      score: 62,
+      duration: 110,
+      pace: 160,
+      fillerCount: 14,
+      fillerWords: { um: 6, uh: 5, like: 3 },
+      pauseCount: 8,
+      transcript: "Hello everyone, today I want to talk about basic communication skills...",
+      averagePitch: 175,
+      pitchVariation: "Low",
+      eyeContact: "45%",
+      posture: "Slouched",
+      drawbacks: ["Speaking pace too fast", "High filler count", "Monotone voice"],
+      feedback: "Try to slow down your speaking rate and take natural breaths between ideas."
+    },
+    {
+      id: 2,
+      title: "AI Ethics & Society",
+      date: "2026-09-05",
+      score: 68,
+      duration: 135,
+      pace: 155,
+      fillerCount: 11,
+      fillerWords: { um: 4, uh: 4, like: 3 },
+      pauseCount: 6,
+      transcript: "Ethics in artificial intelligence is a growing concern for modern software...",
+      averagePitch: 178,
+      pitchVariation: "Moderate",
+      eyeContact: "52%",
+      posture: "Slightly Slouched",
+      drawbacks: ["Frequent filler words", "Needs better posture"],
+      feedback: "Slight improvement in vocal pitch, but focus on keeping your back straight."
+    },
+    {
+      id: 3,
+      title: "Machine Learning Basics",
+      date: "2026-09-12",
+      score: 70,
+      duration: 140,
+      pace: 150,
+      fillerCount: 10,
+      fillerWords: { um: 5, uh: 3, like: 2 },
+      pauseCount: 6,
+      transcript: "Machine learning relies on training models using high-quality datasets...",
+      averagePitch: 180,
+      pitchVariation: "Moderate",
+      eyeContact: "60%",
+      posture: "Upright",
+      drawbacks: ["Occasional hesitation", "Restless hand gestures"],
+      feedback: "Good posture improvement. Work on reducing fidgeting while talking."
+    },
+    {
+      id: 4,
+      title: "Data Science in Healthcare",
+      date: "2026-09-18",
+      score: 74,
+      duration: 150,
+      pace: 148,
+      fillerCount: 9,
+      fillerWords: { um: 4, uh: 3, like: 2 },
+      pauseCount: 5,
+      transcript: "Predictive analytics can improve patient outcomes in modern hospital settings...",
+      averagePitch: 182,
+      pitchVariation: "Moderate",
+      eyeContact: "65%",
+      posture: "Upright",
+      drawbacks: ["Minor filler pauses"],
+      feedback: "Steady progress! Your presentation flow is becoming much smoother."
+    },
+    {
+      id: 5,
+      title: "Neural Networks Overview",
+      date: "2026-09-25",
+      score: 75,
+      duration: 160,
+      pace: 146,
+      fillerCount: 8,
+      fillerWords: { um: 3, uh: 3, like: 2 },
+      pauseCount: 5,
+      transcript: "Deep neural networks mirror biological brain structures to classify data...",
+      averagePitch: 181,
+      pitchVariation: "Good",
+      eyeContact: "68%",
+      posture: "Upright",
+      drawbacks: ["Limited movement across stage"],
+      feedback: "Clear explanation of technical concepts. Use vocal emphasis for key points."
+    },
+    {
+      id: 6,
+      title: "Robotics & Automation",
+      date: "2026-10-01",
+      score: 76,
+      duration: 130,
+      pace: 144,
+      fillerCount: 7,
+      fillerWords: { um: 3, uh: 2, like: 2 },
+      pauseCount: 4,
+      transcript: "Automation in industrial settings reduces errors and boosts efficiency...",
+      averagePitch: 185,
+      pitchVariation: "Good",
+      eyeContact: "72%",
+      posture: "Upright",
+      drawbacks: ["Speaking pace still slightly fast"],
+      feedback: "Your confidence is growing. Practice deliberate pauses for emphasis."
+    },
+    {
+      id: 7,
+      title: "Introduction to AI",
+      date: "2026-10-10",
+      score: 78,
+      duration: 120,
+      pace: 145,
+      fillerCount: 8,
+      fillerWords: { um: 3, uh: 2, like: 3 },
+      pauseCount: 5,
+      transcript: "Artificial Intelligence is transforming how we approach daily challenges...",
+      averagePitch: 180,
+      pitchVariation: "Moderate",
+      eyeContact: "70%",
+      posture: "Upright",
+      drawbacks: ["Too many filler words", "Limited eye contact", "Speaking pace too fast"],
+      feedback: "Work on reducing filler words and maintaining a steady pace."
+    },
+    {
+      id: 8,
+      title: "Future of Technology",
+      date: "2026-10-12",
+      score: 85,
+      duration: 180,
+      pace: 135,
+      fillerCount: 4,
+      fillerWords: { um: 2, uh: 1, like: 1 },
+      pauseCount: 3,
+      transcript: "Emerging technological trends point toward decentralized AI assistants...",
+      averagePitch: 190,
+      pitchVariation: "Good",
+      eyeContact: "82%",
+      posture: "Upright",
+      drawbacks: ["Inconsistent posture"],
+      feedback: "Good improvement in speaking pace and clarity."
+    },
+    {
+      id: 9,
+      title: "Startup Pitch: AI App",
+      date: "2026-10-13",
+      score: 88,
+      duration: 200,
+      pace: 132,
+      fillerCount: 3,
+      fillerWords: { um: 1, uh: 1, like: 1 },
+      pauseCount: 3,
+      transcript: "Our product leverages machine learning to streamline workflow automation...",
+      averagePitch: 192,
+      pitchVariation: "Excellent",
+      eyeContact: "88%",
+      posture: "Upright",
+      drawbacks: ["Rushed conclusion"],
+      feedback: "Compelling delivery! Give yourself a few extra seconds on the final slide."
+    },
+    {
+      id: 10,
+      title: "Leadership in Tech",
+      date: "2026-10-13",
+      score: 90,
+      duration: 210,
+      pace: 130,
+      fillerCount: 2,
+      fillerWords: { um: 1, uh: 1, like: 0 },
+      pauseCount: 2,
+      transcript: "Empathetic leadership fosters innovation in fast-moving engineering teams...",
+      averagePitch: 195,
+      pitchVariation: "Excellent",
+      eyeContact: "90%",
+      posture: "Upright",
+      drawbacks: ["None noticeable"],
+      feedback: "Outstanding performance with strong eye contact and controlled volume."
+    },
+    {
+      id: 11,
+      title: "Scalable Cloud Architecture",
+      date: "2026-10-14",
+      score: 92,
+      duration: 240,
+      pace: 128,
+      fillerCount: 1,
+      fillerWords: { um: 0, uh: 1, like: 0 },
+      pauseCount: 2,
+      transcript: "Designing distributed systems requires balancing reliability and cost efficiency...",
+      averagePitch: 198,
+      pitchVariation: "Excellent",
+      eyeContact: "94%",
+      posture: "Upright",
+      drawbacks: ["Minor pause during Q&A"],
+      feedback: "Excellent pitch control and engagement throughout the entire deck."
+    },
+    {
+      id: 12,
+      title: "Product Launch Keynote",
+      date: "2026-10-14",
+      score: 94,
+      duration: 300,
+      pace: 125,
+      fillerCount: 1,
+      fillerWords: { um: 1, uh: 0, like: 0 },
+      pauseCount: 2,
+      transcript: "Today we are excited to reveal our next-generation intelligence platform...",
+      averagePitch: 200,
+      pitchVariation: "Excellent",
+      eyeContact: "95%",
+      posture: "Upright",
+      drawbacks: [],
+      feedback: "Masterclass delivery! High engagement, flawless pace, and minimal fillers."
+    }
+  ],
+
+  "2": [
+    {
+      id: 1,
+      title: "Environmental Awareness Intro",
+      date: "2026-08-15",
+      score: 58,
+      duration: 100,
+      pace: 115,
+      fillerCount: 15,
+      fillerWords: { um: 7, uh: 5, like: 3 },
+      pauseCount: 10,
+      transcript: "Um, today I will talk about environmental awareness and ecosystems...",
+      averagePitch: 155,
+      pitchVariation: "Low",
+      eyeContact: "35%",
+      posture: "Slouched",
+      drawbacks: ["Very low pitch variation", "Excessive long pauses", "Poor eye contact"],
+      feedback: "Focus on projecting your voice toward the camera and reducing awkward silence."
+    },
+    {
+      id: 2,
+      title: "Renewable Energy Solutions",
+      date: "2026-08-22",
+      score: 63,
+      duration: 120,
+      pace: 118,
+      fillerCount: 12,
+      fillerWords: { um: 6, uh: 4, like: 2 },
+      pauseCount: 8,
+      transcript: "Solar and wind energy are critical steps for reducing carbon emissions...",
+      averagePitch: 158,
+      pitchVariation: "Low",
+      eyeContact: "42%",
+      posture: "Slouched",
+      drawbacks: ["Low voice volume", "Monotone delivery"],
+      feedback: "Vary your tone when making key assertions to keep the audience engaged."
+    },
+    {
+      id: 3,
+      title: "Global Warming Impacts",
+      date: "2026-09-02",
+      score: 65,
+      duration: 130,
+      pace: 120,
+      fillerCount: 11,
+      fillerWords: { um: 5, uh: 4, like: 2 },
+      pauseCount: 8,
+      transcript: "Rising global temperatures affect weather patterns across all continents...",
+      averagePitch: 160,
+      pitchVariation: "Low",
+      eyeContact: "48%",
+      posture: "Slightly Slouched",
+      drawbacks: ["Frequent long pauses", "Needs more vocal energy"],
+      feedback: "Slightly better pacing. Try bringing more enthusiasm into your tone."
+    },
+    {
+      id: 4,
+      title: "Carbon Footprint Reduction",
+      date: "2026-09-10",
+      score: 68,
+      duration: 140,
+      pace: 122,
+      fillerCount: 9,
+      fillerWords: { um: 4, uh: 3, like: 2 },
+      pauseCount: 7,
+      transcript: "Individuals can reduce their footprint through energy conservation at home...",
+      averagePitch: 162,
+      pitchVariation: "Moderate",
+      eyeContact: "55%",
+      posture: "Upright",
+      drawbacks: ["Low energy at the start"],
+      feedback: "Good posture improvement! Focus on starting strong right from sentence one."
+    },
+    {
+      id: 5,
+      title: "Ocean Conservation Urgency",
+      date: "2026-09-19",
+      score: 70,
+      duration: 145,
+      pace: 124,
+      fillerCount: 8,
+      fillerWords: { um: 4, uh: 2, like: 2 },
+      pauseCount: 7,
+      transcript: "Marine ecosystems are threatened by plastic pollution and industrial runoff...",
+      averagePitch: 163,
+      pitchVariation: "Moderate",
+      eyeContact: "60%",
+      posture: "Upright",
+      drawbacks: ["Needs vocal pitch dynamics"],
+      feedback: "You're cutting down filler words well. Keep working on dynamic tone modulation."
+    },
+    {
+      id: 6,
+      title: "Climate Change",
+      date: "2026-10-11",
+      score: 72,
+      duration: 150,
+      pace: 125,
+      fillerCount: 10,
+      fillerWords: { um: 5, uh: 3, like: 2 },
+      pauseCount: 7,
+      transcript: "Climate change remains one of the defining challenges of our generation...",
+      averagePitch: 165,
+      pitchVariation: "Low",
+      eyeContact: "62%",
+      posture: "Upright",
+      drawbacks: ["Long pauses", "Low voice variation"],
+      feedback: "Practise voice variation and reduce unnecessary pauses."
+    },
+    {
+      id: 7,
+      title: "Sustainable Agriculture",
+      date: "2026-10-11",
+      score: 75,
+      duration: 160,
+      pace: 128,
+      fillerCount: 7,
+      fillerWords: { um: 3, uh: 2, like: 2 },
+      pauseCount: 5,
+      transcript: "Regenerative farming restores soil health while producing nutritious food...",
+      averagePitch: 170,
+      pitchVariation: "Moderate",
+      eyeContact: "68%",
+      posture: "Upright",
+      drawbacks: ["Occasional quiet sentence endings"],
+      feedback: "Noticeable improvement in speech rhythm. Keep your volume strong through sentence ends."
+    },
+    {
+      id: 8,
+      title: "Biodiversity & Ecosystems",
+      date: "2026-10-12",
+      score: 78,
+      duration: 165,
+      pace: 130,
+      fillerCount: 6,
+      fillerWords: { um: 3, uh: 2, like: 1 },
+      pauseCount: 4,
+      transcript: "Protecting endangered species requires coordinated international policies...",
+      averagePitch: 172,
+      pitchVariation: "Moderate",
+      eyeContact: "72%",
+      posture: "Upright",
+      drawbacks: ["Slightly stiff body language"],
+      feedback: "Clear and confident voice tone. Relax your posture slightly to look more natural."
+    },
+    {
+      id: 9,
+      title: "Circular Economy Models",
+      date: "2026-10-13",
+      score: 81,
+      duration: 175,
+      pace: 132,
+      fillerCount: 5,
+      fillerWords: { um: 2, uh: 2, like: 1 },
+      pauseCount: 4,
+      transcript: "Designing products for reuse eliminates waste streams before they start...",
+      averagePitch: 175,
+      pitchVariation: "Good",
+      eyeContact: "78%",
+      posture: "Upright",
+      drawbacks: ["Minor hesitation before statistics"],
+      feedback: "Strong delivery with solid audience connection and good inflection."
+    },
+    {
+      id: 10,
+      title: "Green Urban Planning",
+      date: "2026-10-13",
+      score: 84,
+      duration: 180,
+      pace: 134,
+      fillerCount: 4,
+      fillerWords: { um: 2, uh: 1, like: 1 },
+      pauseCount: 3,
+      transcript: "Cities with expanded parklands and clean transit lower carbon output drastically...",
+      averagePitch: 178,
+      pitchVariation: "Good",
+      eyeContact: "82%",
+      posture: "Upright",
+      drawbacks: ["Could use more gestures for key metrics"],
+      feedback: "Very persuasive presentation! Tone and pace are well calibrated."
+    },
+    {
+      id: 11,
+      title: "Environmental Policy Pitch",
+      date: "2026-10-14",
+      score: 87,
+      duration: 190,
+      pace: 135,
+      fillerCount: 3,
+      fillerWords: { um: 1, uh: 1, like: 1 },
+      pauseCount: 3,
+      transcript: "Policy frameworks must incentivize clean tech investment across all energy sectors...",
+      averagePitch: 182,
+      pitchVariation: "Good",
+      eyeContact: "86%",
+      posture: "Upright",
+      drawbacks: ["Slight rush near end"],
+      feedback: "Great vocal projection and steady rhythm throughout."
+    },
+    {
+      id: 12,
+      title: "Clean Tech Innovations",
+      date: "2026-10-14",
+      score: 89,
+      duration: 210,
+      pace: 135,
+      fillerCount: 2,
+      fillerWords: { um: 1, uh: 1, like: 0 },
+      pauseCount: 2,
+      transcript: "Next-gen battery storage and carbon capture hold immense promise for carbon neutrality...",
+      averagePitch: 185,
+      pitchVariation: "Excellent",
+      eyeContact: "90%",
+      posture: "Upright",
+      drawbacks: [],
+      feedback: "Excellent progress across all metrics! Strong pitch control, clear voice, and minimal filler words."
+    }
+  ]
+};
+
+export function DataProvider({ children }) {
+  const [users, setUsers] = useState(initialUsers);
+  const [currentUser, setCurrentUser] = useState(null);
+  const [pendingAnalysis, setPendingAnalysis] = useState(null);
+  // Store other shared application data here
+  const [analysisResults, setAnalysisResults] = useState([]);
+  const [history, setHistory] = useState([]);
+  const [progressByUser, setProgressByUser] = useState(initialProgress);
+
+  const getUserProgress = (gmail) => {
+    return progressByUser[gmail] || [];
+  };
+
+  const addSpeechResult = (gmail, speech) => {
+    setProgressByUser((prev) => ({
+      ...prev,
+      [gmail]: [
+        ...(prev[gmail] || []),
+        {
+          id: Date.now(),
+          ...speech,
+        },
+      ],
+    }));
+  };
+
+  const value = {
+  users,
+  setUsers,
+  currentUser,
+  setCurrentUser,
+
+  pendingAnalysis,
+  setPendingAnalysis,
+
+  analysisResults,
+  setAnalysisResults,
+  history,
+  setHistory,
+  progressByUser,
+  getUserProgress,
+  addSpeechResult,
+};
+
+  return (
+    <DataContext.Provider value={value}>
+      {children}
+    </DataContext.Provider>
+  );
+}
+
+export function useData() {
+  return useContext(DataContext);
+}

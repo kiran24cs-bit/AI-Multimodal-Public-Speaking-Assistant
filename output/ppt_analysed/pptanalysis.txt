@@ -1,0 +1,118 @@
+======================================================================
+                 POWERPOINT ANALYSIS REPORT
+======================================================================
+File name: Module-3-Conditions-for-Patent-Protection (1).pptx
+Total slides: 9
+Total extracted words: 456
+Average words per slide: 50.67
+Average basic structure score: 97.2/100
+
+SCORING EXPLANATION
+----------------------------------------------------------------------
+Rule-based heuristic based on detectable titles, text density, explicitly sized small fonts, sentence length, and potentially empty slides. This is not an AI assessment of visual design, factual accuracy, or persuasiveness.
+
+OVERALL FINDINGS
+----------------------------------------------------------------------
+- No major issues detected by the basic automated checks.
+
+SLIDE-BY-SLIDE ANALYSIS
+======================================================================
+
+SLIDE 1: ENGINEERING FOUNDATIONS · MODULE 03
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+No specific recommendations.
+
+SLIDE 2: THE BASIC IDEA
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 3: CONDITION 01
+----------------------------------------------------------------------
+Basic structure score: 95/100
+
+FINDINGS:
+- Long sentences may reduce readability.
+
+RECOMMENDATIONS:
+- Break long sentences into shorter statements.
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 4: CONDITION 02
+----------------------------------------------------------------------
+Basic structure score: 90/100
+
+FINDINGS:
+- Relatively dense slide: 83 words.
+
+RECOMMENDATIONS:
+- Shorten paragraphs and use concise bullet points.
+
+SLIDE 5: CONDITION 03
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 6: BEFORE YOU SEEK PROTECTION
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 7: A STRATEGIC CHOICE
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 8: ANOTHER PATH
+----------------------------------------------------------------------
+Basic structure score: 100/100
+
+FINDINGS:
+- No issues detected by the basic automated checks.
+
+RECOMMENDATIONS:
+- Check image quality, relevance, alignment, and attribution.
+
+SLIDE 9: A PRACTICAL FIRST PASS
+----------------------------------------------------------------------
+Basic structure score: 90/100
+
+FINDINGS:
+- Relatively dense slide: 81 words.
+
+RECOMMENDATIONS:
+- Shorten paragraphs and use concise bullet points.
+
+REPEATED FOUR-WORD PHRASES
+======================================================================
+- 'the invention must be': 2 occurrences
+
+======================================================================
+END OF REPORT
+======================================================================

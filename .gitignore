@@ -1,0 +1,53 @@
+
+.venv/
+__pycache__/
+*.pyc
+output/audio_out
+output/video_out
+
+
+data/batch_videos
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+.env
+wav2vec2_checkpoints/
+
+
+# Python environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build files
+dist/
+build/
+
+# Python testing
+.pytest_cache/
+.coverage
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

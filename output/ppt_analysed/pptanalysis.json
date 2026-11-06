@@ -1,0 +1,321 @@
+{
+  "file_name": "Module-3-Conditions-for-Patent-Protection (1).pptx",
+  "slide_count": 9,
+  "total_word_count": 456,
+  "total_character_count": 2798,
+  "average_words_per_slide": 50.67,
+  "total_images": 19,
+  "total_charts": 0,
+  "total_tables": 0,
+  "average_basic_structure_score": 97.2,
+  "untitled_slides": 0,
+  "dense_slides": 0,
+  "low_text_slides": 0,
+  "slides_below_60": 0,
+  "overall_findings": [
+    "No major issues detected by the basic automated checks."
+  ],
+  "score_explanation": "Rule-based heuristic based on detectable titles, text density, explicitly sized small fonts, sentence length, and potentially empty slides. This is not an AI assessment of visual design, factual accuracy, or persuasiveness.",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "ENGINEERING FOUNDATIONS · MODULE 03",
+      "word_count": 19,
+      "character_count": 127,
+      "sentence_count": 1,
+      "average_words_per_sentence": 19.0,
+      "image_count": 0,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 5,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        14.0,
+        44.0,
+        20.0
+      ],
+      "minimum_font_size_pt": 14.0,
+      "maximum_font_size_pt": 44.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [],
+      "extracted_text": "ENGINEERING FOUNDATIONS · MODULE 03\nConditions for Patent Protection\nHow to test whether an invention may qualify for a patent."
+    },
+    {
+      "slide_number": 2,
+      "title": "THE BASIC IDEA",
+      "word_count": 34,
+      "character_count": 195,
+      "sentence_count": 4,
+      "average_words_per_sentence": 8.5,
+      "image_count": 4,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 6,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        14.0,
+        34.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "minimum_font_size_pt": 14.0,
+      "maximum_font_size_pt": 34.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "THE BASIC IDEA\nWhat is a patent?\nA legal right for an invention.\nIt can stop others from making, using, or selling the invention without permission.\nIn return, the inventor explains how it works."
+    },
+    {
+      "slide_number": 3,
+      "title": "CONDITION 01",
+      "word_count": 65,
+      "character_count": 424,
+      "sentence_count": 2,
+      "average_words_per_sentence": 32.5,
+      "image_count": 4,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 21,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        14.0,
+        34.0,
+        20.0,
+        22.0,
+        16.0,
+        22.0,
+        16.0,
+        22.0,
+        16.0,
+        22.0,
+        16.0,
+        14.0
+      ],
+      "minimum_font_size_pt": 14.0,
+      "maximum_font_size_pt": 34.0,
+      "basic_structure_score": 95,
+      "findings": [
+        "Long sentences may reduce readability."
+      ],
+      "suggestions": [
+        "Break long sentences into shorter statements.",
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "CONDITION 01\nFirst condition: the invention must be new\nThe same solution must not already be available to the public.\nSearch\nPatents, papers, products, and websites\nCompare\nFind what was already known or published\nIdentify prior art\nEarlier knowledge that can affect protection\nTest novelty\nAsk whether the claimed invention is genuinely new\nPrior art means earlier knowledge made available before the relevant filing date."
+    },
+    {
+      "slide_number": 4,
+      "title": "CONDITION 02",
+      "word_count": 83,
+      "character_count": 440,
+      "sentence_count": 6,
+      "average_words_per_sentence": 13.83,
+      "image_count": 0,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 11,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        14.0,
+        34.0,
+        20.0,
+        22.0,
+        20.0,
+        22.0,
+        20.0,
+        22.0,
+        20.0,
+        14.0
+      ],
+      "minimum_font_size_pt": 14.0,
+      "maximum_font_size_pt": 34.0,
+      "basic_structure_score": 90,
+      "findings": [
+        "Relatively dense slide: 83 words."
+      ],
+      "suggestions": [
+        "Shorten paragraphs and use concise bullet points."
+      ],
+      "extracted_text": "CONDITION 02\nSecond condition: it must not be obvious\nThe invention must be a real step forward, not an easy next step.\nThe test\nWould a skilled engineer reach this solution easily, using common knowledge?\nObvious\nA fan with a motor is common. Adding a motor is an easy step.\nNot obvious\nA fan that cleans itself with a new mechanism is a bigger step, so it can be patented.\nIf the answer is yes, the idea is obvious and cannot be patented."
+    },
+    {
+      "slide_number": 5,
+      "title": "CONDITION 03",
+      "word_count": 66,
+      "character_count": 399,
+      "sentence_count": 6,
+      "average_words_per_sentence": 11.0,
+      "image_count": 3,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 17,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        14.0,
+        34.0,
+        20.0,
+        22.0,
+        16.0,
+        22.0,
+        16.0,
+        22.0,
+        16.0,
+        14.0
+      ],
+      "minimum_font_size_pt": 14.0,
+      "maximum_font_size_pt": 34.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "CONDITION 03\nThird condition: it must be useful\nThe invention must work in practice, not only in theory.\nWorks\nIt performs the function it claims to perform.\nHas a use\nIt has an industrial or business application.\nMore than theory\nA purely theoretical idea is usually not enough.\nUsefulness is often described as practical or industrial application. The exact legal test depends on the relevant law."
+    },
+    {
+      "slide_number": 6,
+      "title": "BEFORE YOU SEEK PROTECTION",
+      "word_count": 42,
+      "character_count": 278,
+      "sentence_count": 3,
+      "average_words_per_sentence": 14.0,
+      "image_count": 3,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 12,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        14.0,
+        34.0,
+        22.0,
+        16.0,
+        22.0,
+        16.0,
+        22.0,
+        16.0
+      ],
+      "minimum_font_size_pt": 14.0,
+      "maximum_font_size_pt": 34.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "BEFORE YOU SEEK PROTECTION\nOther checks before protection\nAllowed subject\nThe subject must be allowed by the law.\nClear disclosure\nThe application must explain the invention clearly enough to reproduce it.\nCorrect office\nFile with the correct national or regional patent office."
+    },
+    {
+      "slide_number": 7,
+      "title": "A STRATEGIC CHOICE",
+      "word_count": 27,
+      "character_count": 193,
+      "sentence_count": 4,
+      "average_words_per_sentence": 6.75,
+      "image_count": 4,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 6,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        14.0,
+        34.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "minimum_font_size_pt": 14.0,
+      "maximum_font_size_pt": 34.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "A STRATEGIC CHOICE\nWhy choose a patent?\nProtects a valuable technical solution.\nCan support licensing, investment, and business advantage.\nUseful when competitors could copy the product easily."
+    },
+    {
+      "slide_number": 8,
+      "title": "ANOTHER PATH",
+      "word_count": 39,
+      "character_count": 245,
+      "sentence_count": 4,
+      "average_words_per_sentence": 9.75,
+      "image_count": 1,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 12,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        14.0,
+        34.0,
+        22.0,
+        16.0,
+        22.0,
+        16.0,
+        22.0,
+        16.0
+      ],
+      "minimum_font_size_pt": 14.0,
+      "maximum_font_size_pt": 34.0,
+      "basic_structure_score": 100,
+      "findings": [
+        "No issues detected by the basic automated checks."
+      ],
+      "suggestions": [
+        "Check image quality, relevance, alignment, and attribution."
+      ],
+      "extracted_text": "ANOTHER PATH\nWhy choose not to patent?\nCost and time\nPatent applications take time and money.\nPublic disclosure\nThe invention becomes public through the application.\nTrade secret\nA confidential process may fit better when it is hard to discover."
+    },
+    {
+      "slide_number": 9,
+      "title": "A PRACTICAL FIRST PASS",
+      "word_count": 81,
+      "character_count": 497,
+      "sentence_count": 12,
+      "average_words_per_sentence": 6.75,
+      "image_count": 0,
+      "chart_count": 0,
+      "table_count": 0,
+      "text_box_count": 6,
+      "other_shape_count": 0,
+      "font_sizes_pt": [
+        14.0,
+        34.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        14.0
+      ],
+      "minimum_font_size_pt": 14.0,
+      "maximum_font_size_pt": 34.0,
+      "basic_structure_score": 90,
+      "findings": [
+        "Relatively dense slide: 81 words."
+      ],
+      "suggestions": [
+        "Shorten paragraphs and use concise bullet points."
+      ],
+      "extracted_text": "A PRACTICAL FIRST PASS\nA simple decision guide\nUse these questions to decide what to investigate next.\nIs it new? Search for prior art.\nIs it a real technical improvement? Test the inventive step.\nCan it be used in industry? Show a practical use.\nWould public disclosure help more than secrecy? Compare disclosure and protection.\nAsk a patent professional before filing.\nThis is a general overview. National laws differ, so check with the relevant patent office or a qualified patent professional."
+    }
+  ],
+  "repeated_four_word_phrases": [
+    {
+      "phrase": "the invention must be",
+      "count": 2
+    }
+  ]
+}
